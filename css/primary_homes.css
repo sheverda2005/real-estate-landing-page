@@ -1,0 +1,88 @@
+.primary_homes {
+    padding: 150px 0 50px 0;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.primary_homes_items {
+    margin: 80px 0;
+    display: flex;
+}
+
+.primary_homes_item:nth-child(1) {
+    margin-right: 112px;
+}
+
+.primary_homes_item_titles {
+    margin: 30px 0;
+}
+
+.primary_homes_item_titles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary_homes_item_titles h4 {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.author_info {
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author_info .avatar {
+    display: flex;
+    align-items: center;
+}
+
+.author_info .avatar p{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.author_info button {
+    padding: 16px 24px;
+    color: #00FFA3;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: capitalize;
+    background: none;
+    border: 1px solid #00FFA3;
+    transition: all 0.3s ease;
+}
+
+.author_info button:hover {
+    background-color: #00FFA3;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.primary_homes_svg {
+    position: absolute;
+    top: 200px;
+}
+
+.primary_homes_items {
+    z-index: 20;
+    position: relative;
+}
+
+.primary_homes_titles {
+    z-index: 20;
+    position: relative;
+}

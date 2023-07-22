@@ -1,0 +1,68 @@
+.compact_house {
+    background-color: #101010;
+    padding: 50px 0 130px;
+    position: relative;
+    overflow: hidden;
+}
+
+.compact_house_container {
+    max-width: 1840px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.compact_house_titles h1{
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transform: translate(-135px);
+    position: relative;
+    z-index: 30;
+}
+
+
+.compact_house_titles h1:last-child{
+    margin-top: 10px;
+}
+
+
+.compact_house_text {
+    color: #828282;
+    font-family: "Space Grotesk";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.compact_house_content {
+    display: flex;
+}
+
+.compact_house_information {
+    margin-top: 60px;
+}
+
+.compact_house_text {
+    margin: 45px;
+    max-width: 80%;
+}
+
+.compact_house_content_img {
+    position: relative;
+    z-index: 20;
+}
+
+.compact_house_container .select_img {
+    top: 480px;
+    left: 0;
+}
+
+.compact_house_content_svg {
+    position: relative;
+    z-index: 40;
+    margin-top: -150px;
+    margin-left: 94%;
+}

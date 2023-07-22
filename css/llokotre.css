@@ -1,0 +1,89 @@
+.llokotre {
+    padding: 150px 0 50px 0;
+    background-color: black;
+
+}
+
+.llokotre_titles {
+    margin-top: 30px;
+}
+
+
+.llokotre_content_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+
+.llokotre_content_item:nth-child(1) .llokotre_content_item_img {
+    order: 2;
+}
+
+.llokotre_content_item:nth-child(3) .llokotre_content_item_img {
+    order: 1;
+}
+
+
+.llokotre_content_item_info h2 {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.llokotre_content_item_info p {
+    color: #828282;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.llokotre_content_item_info span {
+    color: #00FFA3;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.llokotre_content_item_info span img{
+    margin-left: 10px;
+}
+
+.llokotre_content_item_info {
+    width: 45%;
+}
+
+.llokotre_svg_about {
+    position: absolute;
+    right: 0;
+}
+
+.llokotre_content_item {
+    position: relative;
+    z-index: 20;
+}
+
+.about-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+.llokotre_content_item_info span {
+    cursor: pointer;
+}

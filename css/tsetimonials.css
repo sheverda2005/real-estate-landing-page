@@ -1,0 +1,33 @@
+.tsetimonials {
+    padding: 0px 0 100px 0;
+    background-color: black;
+}
+
+
+.tsetimonials-content_text p{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.tsetimonials-content_text {
+    margin-right: 150px;
+}
+
+.tsetimonials-content_text h3{
+   margin-bottom: 20px;
+}
+
+.tsetimonials_content {
+    display: flex;
+}
+
+.tsetimonials_quote h1 span {
+    color: #00FFA3;
+}
+
+.tsetimonials_svg {
+    position: absolute;
+}

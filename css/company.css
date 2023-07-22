@@ -1,0 +1,70 @@
+.company_blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company {
+    padding: 70px 0;
+    background-color: #101010;
+}
+
+.company_items {
+    display: flex;
+    align-items: center;
+}
+
+.company_item {
+    margin: 0 20px;
+}
+
+.decline_allow {
+    padding: 30px;
+    border: 1px solid #363636;
+    width: 40%;
+}
+
+.decline_allow_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.decline_allow_buttons {
+    display: flex;
+    margin-left: 15px;
+}
+
+.decline_allow_button {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.decline_allow_button.decline {
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.decline_allow_button.decline:hover {
+    border: 1px solid #101010;
+    transition: all 0.3s ease;
+}
+
+.decline_allow_button.allow {
+    margin-left: 15px;
+    background-color: #00FFA3;
+    border: 1px solid #00FFA3;
+    transition: all 0.3s ease;
+}
+
+.decline_allow_button.allow:hover {
+    background: none;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}

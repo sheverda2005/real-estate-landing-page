@@ -1,0 +1,27 @@
+.advertising_line {
+    padding: 20px 0;
+    background-color: #00FFA3;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.advertising_line p {
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.advertising_line p::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}

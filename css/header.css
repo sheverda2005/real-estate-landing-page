@@ -1,0 +1,207 @@
+header {
+    background-image: url("../images/Header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo_items {
+    display: flex;
+    background-color: #050505;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.nav_items {
+    display: flex;
+    margin: 0 30px;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.nav_items li{
+    margin: 0 10px;
+}
+
+.nav_item.active {
+    font-weight: 700;
+}
+
+.nav_item.active {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.nav_item {
+    font-weight: 400;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.nav_item:hover {
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_item:hover::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #00FFA3;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+
+.nav_item.active::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #00FFA3;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.nav_buttons button {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.nav_button.login {
+    padding: 16px 24px;
+    border: 1px solid #000000;
+    background: none;
+    margin-left: 24px;
+    transition: all 0.3s ease;
+}
+
+.nav_button.login:hover {
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.nav_button.sign_in {
+    padding: 16px 24px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.nav_button.sign_in:hover {
+    border: 1px solid #101010;
+    transition: all 0.3s ease;
+}
+
+.house_img_header_circle {
+    margin-top: 150px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_text {
+    margin-top: 50px;
+}
+
+
+.header_text_p {
+    color: #00FFA3;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+.header_text_title{
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+.header_text_title_two {
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-top: 15px;
+
+}
+
+.header_blocks {
+    margin-top: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header_get_started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 29px;
+    background-color: #00FFA3;
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.header_project{
+    margin-left: 55px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.header_project_completed_title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header_project_completed_text {
+    color: #828282;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+    margin-top: 10px;
+}
+
+.header_project.completed{
+    margin-left: 55px;
+    padding: 0;
+    text-align: start;
+}
+
+.header_project.completed .header_project_completed_text{
+    text-align: start;
+}
+
+
+
+.header_block_information {
+    display: flex;
+    width: 100% ;
+}
+
+.header_information {
+    width: 50%;
+}
