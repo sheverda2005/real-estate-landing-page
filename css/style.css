@@ -50,6 +50,7 @@ body {
 .container {
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 h3 {
@@ -67,3 +68,26 @@ h1 {
     text-transform: capitalize;
 }
 
+@media (max-width: 1050px) {
+    h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 426px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 626px) {
+    h1 {
+        font-size: 45px;
+    }
+}
