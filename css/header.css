@@ -432,10 +432,11 @@ nav {
         font-size: 35px;
     }
     .header_get_started {
-        width: 80%;
+        width: 70%;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        padding: 35px 0;
     }
     .header_get_started p{
         margin: 0 5px;
