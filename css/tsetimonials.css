@@ -31,3 +31,60 @@
 .tsetimonials_svg {
     position: absolute;
 }
+
+@media (max-width: 1050px) {
+    .tsetimonials_quote h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .tsetimonials-content_text {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .tsetimonials_quote h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 740px) {
+    .tsetimonials_content {
+        flex-direction: column;
+    }
+    .tsetimonials-content_text {
+        margin-right: 0;
+    }
+    .tsetimonials_quote h1 {
+        margin-top: 40px;
+    }
+    .tsetimonials-content_text h3 {
+        text-align: center;
+    }
+    .tsetimonials-content_text p {
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tsetimonials-content_text p span{
+        margin: 0 15px;
+    }
+    .tsetimonials_quote h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .tsetimonials_quote h1 {
+        font-size: 30px;
+    }
+    .tsetimonials-content_text p {
+        text-align: center;
+        flex-direction: column;
+    }
+    .tsetimonials-content_text p span{
+        margin: 0;
+    }
+}

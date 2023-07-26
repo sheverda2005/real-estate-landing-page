@@ -296,9 +296,9 @@ nav {
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 540px) {
     .house_img_header_circle img {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -413,5 +413,38 @@ nav {
 @media (max-width: 600px) {
     .header_text_title {
         font-size: 40px;
+    }
+}
+
+@media (max-width: 483px) {
+    .header_text_mobile_subtitles {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_text_mobile_subtitles .header_text_p:nth-child(2) {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    .header_text_title {
+        font-size: 35px;
+    }
+    .header_get_started {
+        width: 80%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_get_started p{
+        margin: 0 5px;
+    }
+    .header_project {
+        flex-direction: row;
+        align-items: center;
+    }
+    .header_project_completed_title {
+        margin-right: 20px;
     }
 }

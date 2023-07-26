@@ -86,3 +86,56 @@
     z-index: 20;
     position: relative;
 }
+
+@media (max-width: 1240px) {
+    .primary_homes_item img{
+        height: auto;
+        width: 100%;
+    }
+    .avatar img {
+        height: 50px;
+        width: 50px;
+    }
+    .primary_homes_titles h3 {
+        text-align: center;
+    }
+    .primary_homes_titles h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 930px) {
+    .primary_homes_svg {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .primary_homes_items {
+        flex-direction: column;
+    }
+    .primary_homes_item:nth-child(1) {
+        margin-right: 0;
+    }
+    .primary_homes_item img {
+        width: 90%;
+    }
+    .primary_homes_item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .primary_homes_items {
+        margin: 50px 0px;
+    }
+    .primary_homes {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 426px) {
+    .primary_homes_titles h1{
+        font-size: 40px;
+    }
+}

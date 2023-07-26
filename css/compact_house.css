@@ -66,3 +66,70 @@
     margin-top: -150px;
     margin-left: 94%;
 }
+
+@media (max-width: 1240px) {
+    .compact_house_content_img {
+        height: auto;
+        width: 400px;
+    }
+    .compact_house_content_svg {
+        display: none;
+    }
+    .compact_house_titles h1 {
+        transform: translate(0);
+        margin-left: 45px;
+    }
+    .compact_house_content {
+        align-items: center;
+    }
+    .select_img img {
+        display: none;
+    }
+}
+
+@media (max-width: 925px) {
+    .compact_house_titles h1 {
+        font-size: 45px;
+    }
+    .compact_house_text {
+        margin: 30px 30px 30px 45px;
+    }
+}
+
+@media (max-width: 806px) {
+    .compact_house_titles h1 {
+        font-size: 40px;
+    }
+    .compact_house_content_img {
+        height: auto;
+        width: 300px;
+    }
+    .compact_house_information {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .compact_house_content {
+        flex-direction: column;
+    }
+    .compact_house_content_img {
+        display: none;
+    }
+    .compact_house_titles h1 {
+        margin-left: 0px;
+    }
+    .compact_house {
+        padding: 20px 0;
+    }
+    .compact_house_titles {
+        text-align: center;
+    }
+    .compact_house_text {
+        text-align: center;
+    }
+    .compact_house_text {
+        margin: 30px;
+        max-width: 100%;
+    }
+}

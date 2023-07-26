@@ -87,3 +87,53 @@
 .llokotre_content_item_info span {
     cursor: pointer;
 }
+
+
+@media (max-width: 1240px) {
+    .llokotre_titles h3 {
+        text-align: center;
+    }
+    .llokotre_titles h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1110px) {
+    .llokotre_svg_about {
+        display: none;
+    }
+    .llokotre_content_item_img {
+        width: 50%;
+    }
+    .llokotre_content_item_img img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .llokotre {
+        padding: 50px 0 50px 0;
+    }
+    .llokotre_content_item {
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .llokotre_content_item_img {
+        display: none;
+    }
+    .llokotre_content_item_info {
+        width: 100%;
+    }
+    .llokotre_content_item_info h3 {
+        text-align: center;
+    }
+    .llokotre_content_item_info h2 {
+        text-align: center;
+    }
+    .llokotre_content_item_info span {
+        text-align: center;
+        justify-content: center;
+    }
+}
