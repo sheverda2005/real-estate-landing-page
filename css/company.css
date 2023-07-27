@@ -109,7 +109,7 @@
 @media (max-width:  426px) {
     .decline_allow {
         margin: 30px;
-        padding: 20px 30px 10px 30px;
+        padding: 20px 15px 10px 15px;
     }
     .decline_allow_content {
         flex-direction: column;

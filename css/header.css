@@ -448,4 +448,19 @@ nav {
     .header_project_completed_title {
         margin-right: 20px;
     }
+    .header_text_title {
+        margin: 0;
+    }
+    .header_text_mobile_titles {
+        margin-top: 20px;
+    }
+    .nav_button.sign_in {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .nav_button.login {
+        padding: 10px 15px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
 }
