@@ -91,3 +91,9 @@ h1 {
         font-size: 45px;
     }
 }
+
+@media (max-width: 426px) {
+    .container {
+        padding: 0 10px;
+    }
+}
