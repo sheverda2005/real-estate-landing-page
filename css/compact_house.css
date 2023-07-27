@@ -133,3 +133,12 @@
         max-width: 100%;
     }
 }
+
+@media (max-width: 426px) {
+    .compact_house_titles h1 {
+        font-size: 35px;
+    }
+    .compact_house_text {
+        margin: 20px 10px;
+    }
+}

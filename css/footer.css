@@ -175,3 +175,9 @@ footer {
         margin-top: 30px;
     }
 }
+
+@media (max-width: 380px) {
+    .footer_text h1 {
+        font-size: 30px;
+    }
+}

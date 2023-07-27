@@ -141,4 +141,16 @@
     .primary_homes_titles h1{
         font-size: 40px;
     }
+    .primary_homes {
+        padding: 30px 0;
+    }
+    .primary_homes_titles h1 {
+        font-size: 35px;
+    }
+    .primary_homes_item_titles h4 {
+        font-size: 30px;
+    }
+    .author_info {
+        margin: 0px 0 30px 0;
+    }
 }

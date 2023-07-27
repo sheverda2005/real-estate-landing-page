@@ -429,7 +429,7 @@ nav {
 
 @media (max-width: 426px) {
     .header_text_title {
-        font-size: 35px;
+        font-size: 30px;
     }
     .header_get_started {
         width: 70%;

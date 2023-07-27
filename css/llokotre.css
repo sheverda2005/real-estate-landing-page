@@ -140,3 +140,18 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 426px) {
+    .llokotre_titles h1 {
+        font-size: 35px;
+    }
+    .llokotre_content_item_info h2 {
+        font-size: 35px;
+    }
+    .llokotre {
+        padding: 30px 0 30px 0;
+    }
+    .llokotre_content_item_info p {
+        text-align: center;
+    }
+}
